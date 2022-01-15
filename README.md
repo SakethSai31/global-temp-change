@@ -21,29 +21,19 @@ The FAOSTAT Temperature Change domain shows statistics of mean surface temperatu
 It includes areas of all the countries and territories of the world. (In 2019: 190 countries and 37 other territorial entities) The data covers monthly and yearly temperature changes as Celsius degrees °C between 1961 and 2019. The frequency of dissemination and Release calendar of the data is the yearly base.
 While the first seven columns include information about temperature changes, the other columns show temperature change numbers between 1961 and 2019. And, all years have some missing values. When we examined the first seven columns, below are the description of the columns
 
-#### Area Code: The numerical code of area column, type of area code is an integer.
-#### Area: Countries and Territories (In 2019: 190 countries and 37 other territorial entities.), type of area is an object.
-#### Months Code: The numerical code of months column, type of months code is an integer.
-#### Months: Months, Seasons, Meteorological year, type of months is an object.
-#### Months: 'January', 'February', 'March', 'April', 'May', 'June', 'July','August', 'September', 'October', 'November', 'December' 
-#### Seasons: 'Dec\x96Jan\x96Feb', 'Mar\x96Apr\x96May', 'Jun\x96Jul\x96Aug','Sep\x96Oct\x96Nov'
-#### Year: 'Meteorological year' 
-#### Element Code: The numerical code of element column, type of element code is an integer.
-#### Element: 'Temperature change', 'Standard Deviation', type of element is an object.
-#### Unit: Celsius degrees °C, type of unit is an object.
 
 
 ### Data Wrangling
 
 The Data set FAOSTAT_data have country codes(ISO 3166 standard published by the International Organization for Standardizationⁱ ). Added this from another CSV that is provided by FAOSTAT.
 
-### My cleaning and wrangling activities included:
+#### Cleaning and wrangling activities included:
 
-#### Data columns and some rows rename
+Data columns and some rows rename
 
-#### Deleting of columns and some rows
+Deleting of columns and some rows
 
-#### Manipulating data frame
+Manipulating data frame
 
 ### Exploratory Data Analysis 
 
